@@ -1,4 +1,4 @@
-#User Management System
+#Pokemon
 1) clone repo
 2) run : npm install
 3) To run  project: npm run start
