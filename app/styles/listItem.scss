@@ -1,0 +1,27 @@
+.list-item {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    .header {
+        background-color: $theme-color;
+        color: $font-color;
+        padding: 0 10px;
+        display: flex;
+        text-transform: uppercase;
+        justify-content: space-between;
+        align-items: center;
+        flex-grow: .1;
+    }
+
+    .content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        flex-grow: .9;;
+    }
+
+    width: calc(100% - 5px);
+    box-shadow: -0.2rem 0 0.3rem #e6e6e6, 0.1rem 0.2rem 0.2rem #e6e6e6;
+    min-height: 270px;
+}

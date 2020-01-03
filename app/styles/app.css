@@ -1,0 +1,53 @@
+.list-item {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  width: calc(100% - 5px);
+  box-shadow: -0.2rem 0 0.3rem #e6e6e6, 0.1rem 0.2rem 0.2rem #e6e6e6;
+  min-height: 270px;
+}
+.list-item .header {
+  background-color: #008000;
+  color: #fff;
+  padding: 0 10px;
+  display: flex;
+  text-transform: uppercase;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 0.1;
+}
+.list-item .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-grow: 0.9;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding: 0;
+}
+.list li {
+  width: 100%;
+}
+
+.pager {
+  display: flex;
+  justify-content: space-between;
+}
+.pager button {
+  background-color: #008000;
+  color: #fff;
+  padding: 10px;
+  width: 60px;
+}
+
+body {
+  padding: 10px;
+  background-color: #eee;
+}
+
+/*# sourceMappingURL=app.css.map */

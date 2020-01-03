@@ -1,0 +1,10 @@
+@import "./var.scss";
+@import "./listItem.scss";
+@import "./list.scss";
+@import "./pager.scss";
+
+body {
+    padding: 10px;
+    background-color: $app-background;
+}
+
